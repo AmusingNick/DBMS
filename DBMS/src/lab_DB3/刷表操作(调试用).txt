@@ -1,0 +1,14 @@
+create table S {S# int primary key,SNAME char,AGE int,SEX char,Height int}
+insert into S values(5,li,22,F,173)
+insert into S values(11,QI,24,M,162)
+insert into S values(15,WU,18,M,181)
+insert into S values(16,ZHAO,30,F,161)
+insert into S values(12,QIAN,32,F,188)
+insert into S values(21,LI,33,F,191)
+insert into S values(6,ZHENG,16,F,140)
+insert into S values(2,ZI,10,M,156)
+insert into S values(25,FU,66,F,168)
+insert into S values(1,why,21,M,175)
+createIndex on S Height
+createIndex on S S#
+createIndex on S AGE

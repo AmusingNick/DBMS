@@ -1,0 +1,9 @@
+insert into S values(78,why1,1,M,176)
+
+delete from S where AGE = 18
+
+update S set SNAME = YU where AGE = 22   
+
+update S set Height = 160 where SEX = M   
+
+drop S

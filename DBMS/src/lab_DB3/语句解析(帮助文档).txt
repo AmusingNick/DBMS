@@ -1,0 +1,28 @@
+create table S {S# int primary key,SNAME char,AGE int,SEX char,Height int}
+insert into S values(5,li,22,F,173)
+insert into S values(11,QI,24,M,162)
+insert into S values(15,WU,18,M,181)
+insert into S values(16,ZHAO,30,F,161)
+insert into S values(12,QIAN,32,F,188)
+insert into S values(21,LI,33,F,191)
+insert into S values(6,ZHENG,16,F,140)
+insert into S values(2,ZI,10,M,156)
+insert into S values(25,FU,66,F,168)
+insert into S values(1,why,21,M,175)
+
+delete from S where SNAME = WANG //选择删除1个记录(char)型
+delete from S where AGE = 22	 //选择删除1个记录(int)型
+delete from S where AGE = 19	 //选择删除多个记录
+delete from S  删除S的全部记录
+
+update S set SNAME = YU where AGE = 22   修改where后面的是一个
+update S set SNAME = YU where SEX = M  修改where后面的是三个
+update S set SNAME = GOU               修改该属性下面的所有数据
+update S set AGE = 5  
+update S set Address = o 
+
+alter table S add Address char
+alter table S drop Address char    	删除一个全是空数据的属性
+alter table S drop AGE char   		删除一个不全是空数据的属性
+
+drop S

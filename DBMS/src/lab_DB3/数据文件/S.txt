@@ -1,0 +1,10 @@
+S#   	SNAME	AGE  	SEX  	Height	
+5    	li   	22   	F    	173  	
+11   	QI   	24   	M    	162  	
+15   	WU   	18   	M    	181  	
+16   	ZHAO 	30   	F    	161  	
+12   	QIAN 	32   	F    	188  	
+21   	LI   	33   	F    	191  	
+2    	ZI   	10   	M    	156  	
+25   	FU   	66   	F    	168  	
+1    	why  	21   	M    	175  	

@@ -1,0 +1,5 @@
+S# int primary key 
+SNAME char 
+AGE int 
+SEX char 
+Height int 
